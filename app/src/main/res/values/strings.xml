@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">TapAndCook</string>
+    <string name="promptname">User ID</string>
+    <string name="promptnewname">Create a New User ID</string>
+    <string name="promptnewpassword">Password</string>
+    <string name="promptnewemail">Email Address</string>
+    <string name="promptpassword">User Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="loginbutton">LOGIN</string>
+    <string name="signupbutton">Sign Up for New Account</string>
+    <string name="signin">Sign Up for Tap and Cook</string>
+    <string name="userlogin">User Login</string>
+    <string name="addaccount">Add New Account</string>
+    <string name="menu">Menu</string>
+    <string name="cook">What you want to cook today?</string>
+    <string name="search">Search</string>
+    <string name="open">open</string>string>
+    <string name="close">close</string>string>
+
+    <string name="errormessage">"There is an error, please try again."</string>string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bookmark_fragment">This is bookmark fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="homepage_fragment">This is homepage fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_filterfrag">Hello filter fragment</string>
+    <string name="hello_inputfrag">Hello input fragment</string>
+
+    <string-array name="cookmethod_array">
+        <item>Any</item>
+        <item>Baking</item>
+        <item>Boiling</item>
+        <item>Frying</item>
+        <item>Grilling</item>
+        <item>Poaching</item>
+        <item>Roasting</item>
+        <item>Simmering</item>
+        <item>Steaming</item>
+        <item>Stewing</item>
+    </string-array>
+
+    <string-array name="cooktime_array">
+        <item>Any</item>
+        <item>5 to 15 min</item>
+        <item>15 to 30 min</item>
+        <item>45 min</item>
+        <item>1 to 2 hour</item>
+        <item>more than 2 hour</item>
+    </string-array>
+
+
+
+
+
+</resources>

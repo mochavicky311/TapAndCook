@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainfragbackground"
+    tools:context=".main_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+    android:id="@+id/textView4"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:fontFamily="@font/chewy"
+    android:text="@string/cook"
+    android:textColor="#cc000000"
+    android:textSize="28sp"
+        android:layout_gravity="top|center"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/chewy"
+        android:text="Category"
+        android:textColor="#cc000000"
+        android:textSize="25sp"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:id="@+id/western"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-65dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@mipmap/western_launcher_foreground"
+        android:drawablePadding="-25dp"
+        android:fontFamily="@font/chewy"
+        android:text="Western"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:id="@+id/asian"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-65dp"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@mipmap/asian_launcher_foreground"
+        android:drawablePadding="-25dp"
+        android:fontFamily="@font/chewy"
+        android:text="Asian"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:id="@+id/vege"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-65dp"
+        android:layout_marginTop="160dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@mipmap/vege_launcher_foreground"
+        android:drawablePadding="-25dp"
+        android:fontFamily="@font/chewy"
+        android:text="Vegetarian"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:id="@+id/mexico"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-65dp"
+        android:layout_marginTop="160dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@mipmap/mexico_launcher_foreground"
+        android:drawablePadding="-25dp"
+        android:fontFamily="@font/chewy"
+        android:text="Mexican"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:id="@+id/japan"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-65dp"
+        android:layout_marginTop="260dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@mipmap/japan_launcher_foreground"
+        android:drawablePadding="-25dp"
+        android:fontFamily="@font/chewy"
+        android:text="Japanese"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:id="@+id/dessert"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-65dp"
+        android:layout_marginTop="260dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@mipmap/dessert_launcher_foreground"
+        android:drawablePadding="-25dp"
+        android:fontFamily="@font/chewy"
+        android:text="Dessert"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:id="@+id/pastry"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@mipmap/pastry_launcher_foreground"
+        android:drawablePadding="-25dp"
+        android:fontFamily="@font/chewy"
+        android:text="Pastry"
+        android:layout_gravity="top|center"/>
+
+    <Button
+        android:id="@+id/input"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/white"
+        android:drawableLeft="@mipmap/searchsmall_launcher_foreground"
+        android:drawablePadding="-50dp"
+        android:fontFamily="@font/chewy"
+        android:text="input ingredient"
+        android:layout_gravity="bottom|center"
+
+
+        android:textColor="@color/colorPrimaryDark" />
+
+
+</FrameLayout>
